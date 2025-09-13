@@ -45,3 +45,17 @@ console.log(typeof NumToBool);
     undefined => false
     NaN => false
 */
+
+// ------operation-----------
+
+// console.log(1+2);
+// console.log(1-2);
+// console.log(1*2);
+// console.log(1/2);
+// console.log(1%2);
+// console.log(1**2);
+
+// console.log("1" + 2 + 2);
+// console.log(1 + "2" + 2);
+
+console.log(+true);

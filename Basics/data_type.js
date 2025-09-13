@@ -15,4 +15,29 @@
 console.log(typeof null) // object
 console.log(typeof undefined) // undefined
 
-// Non - premitive data type. ==> Object, array 
+let loginId = Symbol('123')
+let sessionId = Symbol('123')
+
+console.log(loginId == sessionId);
+// Both the symbols are different no matter if it's values are same or not.
+
+console.log(typeof loginId);
+console.log(sessionId);
+
+// Non - premitive data type. ==> Object, array, functions
+
+let heros = ["ironman", "thor", "antman", "Doom"];
+
+let fun = {
+    name: "Dhruv",
+    age: 20,
+    height: "5'10"
+}
+
+let tryIt = function(){
+    console.log("Hello JS");
+}
+
+console.log(typeof tryIt);
+console.log(typeof fun);
+console.log(typeof heros);
