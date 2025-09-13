@@ -65,4 +65,4 @@ let Obj2 = Obj1
 Obj2.upi = "Hello@yespop"
 
 console.log(Obj1.upi); // Both the values are changed
-console.log(Obj2.upi); // beacause they are using heap --> pass by reference 
+console.log(Obj2.upi); // beacause they are using heap --> pass by reference
